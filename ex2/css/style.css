@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+
+header nav {
+    display: flex;
+    gap: 68px;
+    margin-right: 120px;
+    margin-top: 48px;
+    margin-bottom: 39;
+    }
+header nav a {
+    text-decoration: none;
+    color: #612999;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Nunito';
+}
+    
+header nav a.active {
+    font-weight: 600;
+}
+    
+nav a:hover {
+    color: #9e54be;
+}
+
+  #logo_name_section {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 42;
+    display: flex;
+    align-items: center;
+  }
+
+  #logo-image{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  #logo-name{
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+  }
+
+
+
+
+
