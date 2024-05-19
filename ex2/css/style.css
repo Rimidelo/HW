@@ -195,7 +195,7 @@ main {
   text-align: left;
   font-family: 'Nunito';  
 }
-
+/*start of wrapper and about section */
 #wrapper {
   width: calc(100% - 64px);
   margin: 0 auto;
@@ -226,3 +226,18 @@ main {
   margin-top: 32px;
   font-family: 'Rubik';
 }
+
+/*popular prints section */
+
+
+#popular-prints h2{
+  margin-top: 32px ;
+  color: #612999;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+
