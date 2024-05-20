@@ -336,7 +336,7 @@ main {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-image: url(/ex2/images/ellipse-heart-4.svg);
+  background-image: url(../ex2/images/ellipse-heart-4.svg);
   width: 47px;
   height: 47px;
   flex-shrink: 0;
@@ -354,7 +354,7 @@ main {
   top: 14;
   width: 23px;
   height: 20px;
-  background-image: url(/ex2/images/heart-4.svg) ;
+  background-image: url(../ex2/images/heart-4.svg) ;
   z-index: 1;
   cursor: pointer;
 }
