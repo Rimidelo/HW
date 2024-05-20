@@ -305,3 +305,56 @@ main {
   font-weight: 400;
 }
 
+.basket-button{
+  position: absolute;
+  bottom: 27px;
+  right: 51px;
+  background-image: url(/ex2/images/ellipse-cart-3.svg);
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.basket-image{
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+  left: 16px;
+  top: 14;
+  width: 31px;
+  height: 31px;
+  background-image: url(/ex2/images/shopping-basket-3.svg);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.heart-button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-image: url(/ex2/images/ellipse-heart-4.svg);
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.heart-image{
+  position: absolute;
+  bottom: 13px;
+  right: 12px;
+  left: 12px;
+  top: 14;
+  width: 23px;
+  height: 20px;
+  background-image: url(/ex2/images/heart-4.svg) ;
+  z-index: 1;
+  cursor: pointer;
+}
