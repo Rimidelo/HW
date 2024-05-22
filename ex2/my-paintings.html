@@ -22,7 +22,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>EB Prints - My Paintings</title>
+    <title>Cozy Canvas - My Paintings</title>
     <link rel="icon" href="../ex2/images/logo.png" type="image/png">
   </head>
   <body>
@@ -47,15 +47,32 @@
     </header>
     <main>
     <div id="wrapper">
-      <section id="about-section">
-          <h2>About</h2>
-          <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
-          <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
-          <p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+        <div class="photos-container">
+          <section class="photos-container-item">
+            <img src="./images/the-last-of-us.png" alt="the-last-of-us">
+          </section>
+          <section class="photos-container-item">
+            <img src="./images/avatar.png" alt="avatar">
+          </section>
+          <section class="photos-container-item">
+            <img src="./images/the-lord-of-the-rings.png" alt="the-lord-of-the-rings">
+          </section>
+        </div>
+      <section>
+        <h2 class="stylized-h2-without-32top">List of Paintings</h2>
       </section>
-      <section id="popular-prints">
-        <h2>List of Paintings</h2>
-      </section>
+      <section class="contact-me-form">
+        <h2 class="stylized-h2">Contact Me!</h2>
+        <form action="#" method="post" onsubmit="return false;">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required="">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required="">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required="">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
     </div>
     </main>
     <footer>
