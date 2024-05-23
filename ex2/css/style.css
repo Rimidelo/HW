@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
 }
+
 /* header css */
 
 header {
@@ -48,13 +49,13 @@ nav a:hover {
   align-items: center;
 }
 
-#logo-image{
+#logo-image {
   width: 64px;
   height: 64px;
   flex-shrink: 0;
 }
 
-#logo-name{
+#logo-name {
   color: #3E3F43;
   font-family: Nunito;
   font-size: 24px;
@@ -70,7 +71,7 @@ nav a:hover {
 footer {
   background: #EFECFF;
   height: 287px;
-  clear:both;
+  clear: both;
   position: sticky;
   bottom: 0;
   left: 0;
@@ -102,14 +103,14 @@ footer {
   padding: 0;
 }
 
-.footer-links-column ul li{
+.footer-links-column ul li {
   font-size: 18px;
   color: #333;
   margin-bottom: 8px;
   font-family: 'Nunito';
 }
 
-.footer-links-column ul li a{
+.footer-links-column ul li a {
   font-family: 'Nunito';
   margin-bottom: 8px;
   font-size: 16px;
@@ -120,14 +121,14 @@ footer {
   font-style: normal;
 }
 
-#social-links-icons{
+#social-links-icons {
   display: flex;
   margin: top 24px;
   margin-left: 32px;
   margin-bottom: 16px;
 }
 
-#social-links-icons a{
+#social-links-icons a {
   fill: #272D4E;
   font-size: 24px;
   transition: color 0.3s;
@@ -200,6 +201,7 @@ main {
   text-align: left;
   font-family: 'Nunito';
 }
+
 /*start of wrapper and about section */
 #wrapper {
   width: calc(100% - 64px);
@@ -235,8 +237,8 @@ main {
 /*popular prints section */
 
 
-.stylized-h2{
-  margin-top:32px;
+.stylized-h2 {
+  margin-top: 32px;
   color: #612999;
   font-family: Rubik;
   font-size: 40px;
@@ -245,7 +247,7 @@ main {
   line-height: 40px;
 }
 
-.cards-container{
+.cards-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -253,10 +255,10 @@ main {
   margin-bottom: 0px;
 }
 
-.card{
+.card {
   width: 376px;
   height: 496px;
-  margin:32px 32px 0px 0px;
+  margin: 32px 32px 0px 0px;
   border-radius: 38px;
   background: #EFECFF;
   box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.1);
@@ -265,13 +267,13 @@ main {
 }
 
 
-.card>img{
+.card>img {
   width: 376px;
   height: 276px;
   border-radius: 38px;
 }
 
-.card h3{
+.card h3 {
   color: #000;
   text-align: justify;
   font-family: Abel;
@@ -283,7 +285,7 @@ main {
   margin-top: 21px;
 }
 
-.card p{
+.card p {
   width: 315px;
   height: 96px;
   flex-shrink: 0;
@@ -294,10 +296,10 @@ main {
   font-weight: 400;
   line-height: normal;
   margin-left: 32px;
-  margin-top:7px;
+  margin-top: 7px;
 }
 
-.card h4{
+.card h4 {
   position: absolute;
   bottom: 36px;
   left: 32px;
@@ -310,7 +312,7 @@ main {
   font-weight: 400;
 }
 
-.basket-button{
+.basket-button {
   position: absolute;
   bottom: 27px;
   right: 51px;
@@ -324,7 +326,7 @@ main {
   z-index: 0;
 }
 
-.basket-image{
+.basket-image {
   position: absolute;
   bottom: 18px;
   right: 16px;
@@ -337,7 +339,7 @@ main {
   cursor: pointer;
 }
 
-.heart-button{
+.heart-button {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -351,7 +353,7 @@ main {
   z-index: 0;
 }
 
-.heart-image{
+.heart-image {
   position: absolute;
   bottom: 13px;
   right: 12px;
@@ -359,14 +361,14 @@ main {
   top: 14;
   width: 23px;
   height: 20px;
-  background-image:url(../images/heart-4.svg);
+  background-image: url(../images/heart-4.svg);
   z-index: 1;
   cursor: pointer;
 }
 
 /*MY PAINTINGS PAGE*/
 
-.photos-container{
+.photos-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -374,7 +376,7 @@ main {
   margin-bottom: 0px;
 }
 
-.photos-container-item{
+.photos-container-item {
   height: 300px;
   flex-shrink: 0;
   margin-right: 32px;
@@ -389,7 +391,7 @@ main {
   flex-shrink: 0;
 }
 
-.stylized-h2-without-32top{
+.stylized-h2-without-32top {
   color: #612999;
   font-family: Rubik;
   font-size: 40px;
@@ -400,16 +402,16 @@ main {
 
 /*list section*/
 
-#list-of-paintings{
+#list-of-paintings {
   margin-top: 32px;
 }
 
-#list-of-paintings ul{
+#list-of-paintings ul {
   list-style: none;
   padding: 0;
 }
 
-#list-of-paintings ul li{
+#list-of-paintings ul li {
   display: flex;
   align-items: center;
   color: #000;
@@ -418,7 +420,7 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
 
 #list-of-paintings .icon-circle {
