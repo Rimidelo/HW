@@ -147,7 +147,6 @@ footer {
 
 /*MAIN SECTION - BIG PICTURE */
 
-/*MAIN SECTION - BIG PICTURE */
 main {
   display: flex;
   align-items: center;
@@ -203,6 +202,7 @@ main {
 }
 
 /*start of wrapper and about section */
+
 #wrapper {
   width: calc(100% - 64px);
   margin: 0 auto;
@@ -235,7 +235,6 @@ main {
 }
 
 /*popular prints section */
-
 
 .stylized-h2 {
   margin-top: 32px;
