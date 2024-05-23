@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 /* header css */
 
@@ -20,26 +20,26 @@ header nav {
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: auto; /*32+88=120*/
+  margin-right: auto;
   flex-shrink: 0;
 }
 
 header nav a {
-    text-decoration: none;
-    color: #612999;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-family: 'Nunito';
+  text-decoration: none;
+  color: #612999;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Nunito';
 }
 
 header nav a.active {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 nav a:hover {
-    color: #9e54be;
+  color: #9e54be;
 }
 
 #logo_name_section {
@@ -48,22 +48,22 @@ nav a:hover {
   align-items: center;
 }
 
-  #logo-image{
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
-  }
+#logo-image{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
 
-  #logo-name{
-    color: #3E3F43;
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 6px;
-    flex-shrink: 0;
-  }
+#logo-name{
+  color: #3E3F43;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6px;
+  flex-shrink: 0;
+}
 
 /* footer css */
 
@@ -227,7 +227,7 @@ main {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140.625%; /* 28.125px */
+  line-height: 140.625%;
   margin-top: 24px;
   font-family: 'Rubik';
 }
@@ -236,7 +236,7 @@ main {
 
 
 .stylized-h2{
-  margin-top: 32px ;
+  margin-top:32px;
   color: #612999;
   font-family: Rubik;
   font-size: 40px;
@@ -265,7 +265,7 @@ main {
 }
 
 
-.card > img {
+.card>img{
   width: 376px;
   height: 276px;
   border-radius: 38px;
@@ -359,7 +359,7 @@ main {
   top: 14;
   width: 23px;
   height: 20px;
-  background-image: url(../images/heart-4.svg) ;
+  background-image:url(../images/heart-4.svg);
   z-index: 1;
   cursor: pointer;
 }
@@ -401,22 +401,23 @@ main {
 /*list section*/
 
 #list-of-paintings{
-  margin-top:32px;
+  margin-top: 32px;
 }
+
 #list-of-paintings ul{
   list-style: none;
   padding: 0;
 }
 
 #list-of-paintings ul li{
-  display:flex;
+  display: flex;
   align-items: center;
   color: #000;
   font-family: Rubik;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 58.333% */
+  line-height: 14px;
   margin-bottom:16px;
 }
 
@@ -501,4 +502,3 @@ form input[type="submit"]:hover {
 form input[type="submit"]:active {
   background-color: #3c185d;
 }
-
