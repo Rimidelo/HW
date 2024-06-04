@@ -1,0 +1,25 @@
+{
+    "title": "Favorite songs",
+    "songs": [
+        {
+            "id": "1",
+            "artist": "Metallica",
+            "title": "Enter Sandman"
+        },
+        {
+            "id": "2",
+            "artist": "Eminem",
+            "title": "Lose Yourself"
+        },
+        {
+            "id": "3",
+            "artist": "Linkin Park",
+            "title": "In the End"
+        },
+        {
+            "id": "4",
+            "artist": "AC/DC",
+            "title": "Thunderstruck"
+        }
+    ]
+}
