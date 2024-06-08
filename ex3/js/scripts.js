@@ -1,9 +1,11 @@
 window.onload = () => {
     initRectangles();
+    document.getElementById("addButton").addEventListener("click", addRectangle);
+    document.getElementById("switchButton").addEventListener("click", switchRectanglesSongs);
+    document.getElementById("removeButton").addEventListener("click", subtractRectangle);
 };
 
-//rectangle part
-
+// Rectangle part
 const colors = ["#640D6B", "#B51B75", "#E65C19", "#F8D082"];
 const fullName = "Vladimir Lihatchov";
 const characters = fullName.split(/\s*/);
@@ -27,7 +29,7 @@ function initRectangles() {
 function addRectangle() {
     if (isShowingRectangles) {
         const wrapper = document.getElementById("wrapper");
-        const charBox = document.createElement("div");
+        const charBox = document.createElement("section");
         const char = characters[currentCharIndex];
         charBox.textContent = char;
         charBox.classList.add("square");
@@ -42,15 +44,13 @@ function subtractRectangle() {
         const wrapper = document.getElementById("wrapper");
         if (wrapper.lastChild) {
             wrapper.removeChild(wrapper.lastChild);
-            currentCharIndex =
-                (currentCharIndex - 1 + characters.length) % characters.length;
+            currentCharIndex = (currentCharIndex - 1 + characters.length) % characters.length;
             currentColorIndex = (currentColorIndex - 1 + colors.length) % colors.length;
         }
     }
 }
 
-//songs part
-
+// Songs part
 function initSongs() {
     fetch("data/music.json")
         .then((response) => response.json())
@@ -75,13 +75,14 @@ function populateSongsInList(data) {
     wrapper.appendChild(ulFrag);
 }
 
-//transition part
-
+// Transition part
 let isShowingRectangles = true;
+let rectState;
 
 function switchRectanglesSongs() {
     const switchButton = document.getElementById("switchButton");
     isShowingRectangles = !isShowingRectangles;
+    const wrapper = document.getElementById("wrapper");
     if (isShowingRectangles) {
         switchButton.innerText = "Switch to songs";
         wrapper.innerHTML = "";
@@ -114,4 +115,3 @@ function saveRectanglesState() {
     );
     return rectangles;
 }
-
