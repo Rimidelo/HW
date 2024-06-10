@@ -88,7 +88,7 @@ function switchRectanglesSongs() {
         wrapper.innerHTML = "";
         if (rectState) {
             rectState.forEach((item) => {
-                const square = document.createElement("div");
+                const square = document.createElement("section");
                 square.classList.add("square");
                 square.style.backgroundColor = item.color;
                 square.innerText = item.char;
