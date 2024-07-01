@@ -8,7 +8,7 @@
 
 header {
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
   height: 128px;
   padding: 0 32px;
